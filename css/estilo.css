@@ -1,0 +1,214 @@
+.navbar-nav {
+  font-family: "Zen loop";
+  color: crimson;
+  font-size: 40px;
+}
+
+.formulario {
+  margin: 0% 20% 0% 20%;
+  padding: 20px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: crimson;
+  padding: 20px;
+}
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background-image: url("../assets/ristorante.jpg");
+  background-attachment: fixed;
+}
+
+.parrafo {
+  font-family: "Zen loop";
+  color: wheat;
+  background-color: black;
+  font-size: 30px;
+}
+
+.titulo {
+  font-family: 'Zen Loop';
+  color: crimson;
+  background-color: black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.album {
+  background-image: url("../assets/ristorante.jpg");
+  background-attachment: fixed;
+}
+
+.video {
+  margin-left: 20%;
+}
+
+img {
+  align-self: center;
+  background-color: none !important;
+}
+
+.nav-item:hover {
+  transition: 1s;
+  font-size: 3rem;
+}
+
+video {
+  align-self: center;
+}
+
+.tarjeta-1 {
+  background-color: orange;
+}
+
+.tarjeta-1 {
+  color: white;
+}
+
+.tarjeta-2 {
+  background-color: orange;
+}
+
+.tarjeta-2 {
+  color: white;
+}
+
+.tarjeta-3 {
+  background-color: orange;
+}
+
+.tarjeta-3 {
+  color: white;
+}
+
+.tarjeta-4 {
+  background-color: orange;
+}
+
+.tarjeta-4 {
+  color: white;
+}
+
+.tarjeta-5 {
+  background-color: orange;
+}
+
+.tarjeta-5 {
+  color: white;
+}
+
+.tarjeta-6 {
+  background-color: orange;
+}
+
+.tarjeta-6 {
+  color: white;
+}
+
+.tarjeta-7 {
+  background-color: orange;
+}
+
+.tarjeta-7 {
+  color: white;
+}
+
+.tarjeta-8 {
+  background-color: orange;
+}
+
+.tarjeta-8 {
+  color: white;
+}
+
+.tarjeta-9 {
+  background-color: orange;
+}
+
+.tarjeta-9 {
+  color: white;
+}
+
+.tarjeta-10 {
+  background-color: orange;
+}
+
+.tarjeta-10 {
+  color: white;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .video {
+    display: none;
+  }
+}
+
+.navbar-dark {
+  size: 30px;
+}
+
+.navbar-dark .navbar-brand {
+  color: crimson;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: #e9a142;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #aaa9a9;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: crimson;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: #e9a142;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #e9a142;
+}
+
+.navbar-dark .navbar-toggler {
+  color: crimson;
+  border-color: yellow;
+}
+
+.navbar-dark .navbar-text {
+  color: #f166cf;
+}
+
+footer {
+  font-size: 30px;
+  color: white;
+  background-color: #444;
+}
+
+.card {
+  background-color: #aaa9a9;
+}
+
+.retorno {
+  display: block;
+  padding: 0px, 200px,0px,200px;
+}
+/*# sourceMappingURL=estilo.css.map */
