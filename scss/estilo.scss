@@ -1,0 +1,168 @@
+.navbar-nav {
+ font-family: "Zen loop";
+ color: crimson;
+ font-size: 40px;
+             }
+
+
+.formulario{
+ margin: 0% 20% 0% 20%;
+ padding: 20px;
+           }
+
+.btn:hover {
+  transition: .7s;
+  background-color: black;
+  color: crimson;
+  padding: 20px;
+           }
+
+body {
+ min-height: 75rem;
+ padding-top: 4.5rem;
+ background-image: url("../assets/ristorante.jpg");
+ background-attachment:fixed;
+     }
+
+.parrafo {
+font-family: "Zen loop";
+color: wheat;
+background-color:rgb(0,0,0);
+font-size: 30px;
+          }
+  
+.titulo {
+ font-family: 'Zen Loop';
+ color: crimson;
+ background-color: black;
+ text-align: center;
+ font-size: 50px;
+ font-weight: bolder;
+          }
+
+.album{
+ background-image: url("../assets/ristorante.jpg");
+ background-attachment:fixed;
+      }
+ 
+.video{
+margin-left: 20%;
+       }
+
+
+img{
+align-self: center;
+background-color: none !important;
+      }
+
+ .nav-item:hover{   
+  transition: 1s;
+   font-size: 3rem;
+                }
+
+video {
+  align-self:center
+      }
+
+@for $i from 1 through 10{
+  .tarjeta-#{$i}{background-color:orange;
+                }
+  .tarjeta-#{$i}{color:white;}
+                         }
+
+
+.bd-placeholder-img {   
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+                         }
+
+                          }
+
+@media (max-width: 650px) {
+   
+  .video{
+    display: none;
+        } 
+                           }
+
+
+.navbar-dark {
+    size:30px;
+
+  .navbar-brand {
+    color:crimson;
+
+    &:hover,
+    &:focus {
+      color:  rgb(233, 161, 66);
+    }
+
+  }
+
+.navbar-nav {
+
+
+ .nav-link {
+  color: rgb(170, 169, 169);
+  &:hover, &:focus {
+  color:crimson;
+                   }
+
+  &.disabled {
+  color: rgb(233, 161, 66);
+             }
+            }
+
+ .show > .nav-link,
+ .nav-link.active {
+      color:  rgb(233, 161, 66);
+                  }
+                }
+
+  .navbar-toggler {
+    color:crimson;
+    border-color:yellow;
+                   }
+
+    .navbar-text {
+    color:  rgb(241, 102, 207);
+    
+                  }
+              }
+
+footer{
+ font-size:30px;
+ color:white;
+ background-color: #444;
+     }
+
+     .card{
+
+      background-color: rgba(170, 169, 169,0);
+     }
+
+
+.retorno{
+  display: block;
+padding: 0px, 200px,0px,200px;
+
+}
+
+
+
+ 
+
+.titulo:hover { 
+  transition: all .7s ease-in;
+  background: #f56e14; 
+  color:#000000;
+  padding: 20px;
+}

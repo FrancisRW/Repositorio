@@ -10,6 +10,7 @@
 }
 
 .btn:hover {
+  transition: .7s;
   background-color: black;
   color: crimson;
   padding: 20px;
@@ -204,11 +205,18 @@ footer {
 }
 
 .card {
-  background-color: #aaa9a9;
+  background-color: rgba(170, 169, 169, 0);
 }
 
 .retorno {
   display: block;
   padding: 0px, 200px,0px,200px;
+}
+
+.titulo:hover {
+  transition: all .7s ease-in;
+  background: #f56e14;
+  color: #000000;
+  padding: 20px;
 }
 /*# sourceMappingURL=estilo.css.map */
